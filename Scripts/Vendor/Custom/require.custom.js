@@ -1,7 +1,9 @@
 ﻿/**
 *CONTAINS OVERLOAD DEFINE
 */
+
 envDefine = function (name, deps, callback) {
+    "use strict";
     //Get personalized config options
     var currentEnv = requirejs.s.contexts._.config.env;
     var envPrefix = requirejs.s.contexts._.config.prodEnvPrefix;
@@ -24,6 +26,7 @@ envDefine = function (name, deps, callback) {
                 }
             }
         }
+
         return envDeps;
     }
 }

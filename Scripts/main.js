@@ -12,4 +12,5 @@ require.config({
 */
 requirejs(["Modules/simplemodule"], function (simplemodule) {
 
+
 });
