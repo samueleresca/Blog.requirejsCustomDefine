@@ -10,7 +10,4 @@ require.config({
 /**
 *MAIN ENTRY POINT
 */
-requirejs(["Modules/simplemodule"], function (simplemodule) {
-
-
-});
+requirejs(["Modules/simplemodule"], function () {});
